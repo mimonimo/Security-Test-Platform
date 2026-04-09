@@ -1,0 +1,5 @@
+  version: 2
+  ethernets:
+    ens37:
+      addresses:
+        - 10.10.10.1/24

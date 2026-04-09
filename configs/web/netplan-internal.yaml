@@ -1,0 +1,9 @@
+  version: 2
+  ethernets:
+    ens37:
+      addresses:
+        - 10.10.10.80/24
+      routes:
+        - to: 10.10.10.0/24
+          via: 10.10.10.1
+          metric: 100

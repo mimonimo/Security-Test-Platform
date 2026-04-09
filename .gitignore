@@ -1,0 +1,19 @@
+# 비밀번호 및 인증 파일
+*.key
+*.pem
+*.crt
+*.p12
+wazuh-passwords.txt
+.env
+secrets/
+
+# 로그 파일
+*.log
+logs/
+
+# 임시 파일
+*.tmp
+*.bak
+__pycache__/
+.DS_Store
+.claude/
